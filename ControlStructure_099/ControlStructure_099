@@ -1,0 +1,34 @@
+
+nilai = float(input("Masukkan persentase nilai: "))
+if nilai >= 90:
+    print("Kinerja: Sangat Baik")
+elif nilai >= 80:
+    print("Kinerja: Baik")
+elif nilai >= 70:
+    print("Kinerja: Cukup Baik")
+elif nilai >= 60:
+    print("Kinerja: Rata-rata")
+else:
+    print("Kinerja: Perlu Perbaikan")
+
+
+angka1 = float(input("Masukkan angka pertama: "))
+angka2 = float(input("Masukkan angka kedua: "))
+angka3 = float(input("Masukkan angka ketiga: "))
+
+terbesar = max(angka1, angka2, angka3)
+print("Angka terbesar adalah:", terbesar)
+n = int(input("Masukkan angka n: "))
+a, b = 0, 1
+
+print("Deret Fibonacci:")
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b  
+n = int(input("Masukkan angka n: "))
+print("Angka ganjil hingga", n, ":")
+for i in range(1, n+1, 2):  
+    print(i, end=" ")
+n = int(input("Masukkan nilai n: "))
+for i in range(1, n+1):
+    print((str(i) + " ") * i) 
