@@ -1,0 +1,5 @@
+# Menanyakan nama pengguna dan menyimpannya dalam variabel 'nama'
+nama = input("Masukkan nama Anda: ")
+
+# Menyapa pengguna dengan pesan yang berisi nama yang dimasukkan
+print("Halo, " + nama + "!")
