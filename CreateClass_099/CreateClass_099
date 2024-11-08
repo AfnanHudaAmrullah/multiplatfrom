@@ -1,0 +1,14 @@
+
+def hitung_keliling(panjang, lebar):
+    return 2 * (panjang + lebar)
+
+def hitung_luas(panjang, lebar):
+    return panjang * lebar
+
+panjang = float(input("Masukkan panjang persegi panjang: "))
+lebar = float(input("Masukkan lebar persegi panjang: "))
+keliling = hitung_keliling(panjang, lebar)
+luas = hitung_luas(panjang, lebar)
+
+print(f"Keliling persegi panjang: {keliling}")
+print(f"Luas persegi panjang: {luas}")
